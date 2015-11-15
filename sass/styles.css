@@ -1,0 +1,276 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Cedarville+Cursive);
+@immport "compass";
+@immport "partials/variables";
+@immport "partials/normalize";
+@immport "partials/mixins";
+@immport "partials/base";
+@immport "compass/css3";
+#main {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../images/background4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  padding-top: 4%; }
+  #main h1 {
+    font-size: 84px;
+    font-family: Raleway; }
+  #main .container {
+    padding-top: 160px; }
+
+#profile {
+  background: #F8F8F8;
+  text-align: left; }
+  #profile h1 {
+    color: black; }
+  #profile h2 {
+    color: black;
+    font-size: 64px;
+    font-style: italic;
+    font-family: sans serif; }
+
+#skills {
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../images/background.jpg);
+  background-size: cover;
+  padding: 5%; }
+  #skills h2 {
+    color: rgba(196, 255, 245, 0.79);
+    padding: 31px 0px 0px 0px; }
+
+#projects {
+  background: #242521; }
+  #projects h1 {
+    padding-bottom: 30px; }
+
+#blog {
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../images/background3.jpg);
+  background-size: cover; }
+
+#art {
+  background: #BFD0CD; }
+  #art h1 {
+    color: black; }
+  #art img {
+    max-height: 350px;
+    max-width: 340px;
+    padding: 10px; }
+
+#contact {
+  background: black; }
+  #contact padding {
+    top: 10px;
+    bottom: 400px; }
+  #contact img {
+    height: 20px;
+    margin: 10px; }
+
+body {
+  font-family: Raleway;
+  font-weight: 400;
+  text-align: center;
+  padding: 0;
+  background: black; }
+
+.container {
+  padding: 8% 2%; }
+
+h1 {
+  font-family: Oswald;
+  color: white;
+  font-size: 64px;
+  margin: 0px; }
+
+h2 {
+  font-weight: bold;
+  font-family: Roboto;
+  color: rgba(196, 255, 245, 0.8); }
+
+h3 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  margin: 0px; }
+
+p {
+  padding: 20px;
+  font-size: 16px;
+  color: rgba(196, 255, 245, 0.6);
+  font-weight: bold;
+  letter-spacing: 7px; }
+
+.navbar .container {
+  padding: 0 10px; }
+.navbar li {
+  padding: 0; }
+
+.small-ctn {
+  display: inline-table;
+  padding: 10px;
+  width: 200px; }
+
+ul {
+  list-style-type: none;
+  color: white;
+  padding: 0px; }
+
+li {
+  padding: 10px;
+  font-size: 20px; }
+
+.divider {
+  border: 3px solid #7ACBBE;
+  width: 40px;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+
+.bordered {
+  border: 3px solid black;
+  margin: 16px;
+  width: 220px; }
+
+a {
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 2px;
+  text-decoration: none;
+  z-index: 2; 
+-webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  transition: all 300ms linear; 
+}
+  a:hover {
+    color: rgba(196, 255, 245, 0.6);
+    font-weight: bold; }
+
+@font-face {
+  font-family: 'WebSymbolsRegular';
+  src: url("websymbols/websymbols-regular-webfont.eot");
+  src: url("websymbols/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"), url("websymbols/websymbols-regular-webfont.woff") format("woff"), url("websymbols/websymbols-regular-webfont.ttf") format("truetype"), url("websymbols/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+#projects .small-ctn {
+  position: relative;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  transition: all 300ms linear; }
+  #projects .small-ctn:hover {
+    background: rgba(0, 0, 0, 0.83);
+    z-index: 999;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+#projects .ca-icon {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  height: 70px;
+  -webkit-transition: all 400ms linear;
+  -moz-transition: all 400ms linear;
+  -o-transition: all 400ms linear;
+  -ms-transition: all 400ms linear;
+  transition: all 400ms linear; }
+#projects .small-ctn:hover .ca-icon {
+  opacity: 0.2;
+  left: 27%;
+  top: 10%;
+  z-index: -1;
+  display: inline-block;
+  height: 100px;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  -webkit-animation: smallToBig 800ms alternate infinite ease;
+  -moz-animation: smallToBig 800ms alternate infinite ease;
+  -ms-animation: smallToBig 800ms alternate infinite ease; }
+#projects .ca-main {
+  font-size: 30px;
+  z-index: 2;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  transition: all 200ms linear; }
+#projects .small-ctn:hover .ca-main {
+  opacity: 1;
+  color: white;
+  z-index: 2;
+  text-align: center;
+  -webkit-animation: smallToBig 300ms ease;
+  -moz-animation: smallToBig 300ms ease;
+  -ms-animation: smallToBig 300ms ease; }
+#projects .ca-sub {
+  font-size: 14px;
+  color: #AAA;
+  opacity: 0.82;
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  transition: all 200ms linear; }
+#projects .small-ctn:hover .ca-sub {
+  color: #ccff00;
+  -webkit-animation: moveFromBottom 500ms ease;
+  -moz-animation: moveFromBottom 500ms ease;
+  -ms-animation: moveFromBottom 500ms ease; }
+#projects .ca-descrip {
+  display: none;
+  margin: 0;
+  z-index: 2;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  transition: all 200ms linear; }
+#projects .small-ctn:hover .ca-descrip {
+  display: inline-block;
+  z-index: 2;
+  -webkit-animation: smallToBig 300ms ease;
+  -moz-animation: smallToBig 300ms ease;
+  -ms-animation: smallToBig 300ms ease; }
+@-webkit-keyframes smallToBig {
+  from {
+    -webkit-transform: scale(0.1); }
+  to {
+    -webkit-transform: scale(1); } }
+@-moz-keyframes smallToBig {
+  from {
+    -moz-transform: scale(0.1); }
+  to {
+    -moz-transform: scale(1); } }
+@-ms-keyframes smallToBig {
+  from {
+    -ms-transform: scale(0.1); }
+  to {
+    -ms-transform: scale(1); } }
+@-webkit-keyframes moveFromBottom {
+  from {
+    -webkit-transform: translateY(100%); }
+  to {
+    -webkit-transform: translateY(0%); } }
+@-moz-keyframes moveFromBottom {
+  from {
+    -moz-transform: translateY(100%); }
+  to {
+    -moz-transform: translateY(0%); } }
+@-ms-keyframes moveFromBottom {
+  from {
+    -ms-transform: translateY(100%); }
+  to {
+    -ms-transform: translateY(0%); } }
+
+/*# sourceMappingURL=styles.css.map */
