@@ -11058,76 +11058,75 @@ a:focus {
 
 /* line 70, ../sass/nav.scss */
 .navbar-custom {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   background-color: #000;
 }
 
-/* line 76, ../sass/nav.scss */
+/* line 75, ../sass/nav.scss */
 .navbar-custom .navbar-brand {
   font-weight: 700;
 }
 
-/* line 80, ../sass/nav.scss */
+/* line 79, ../sass/nav.scss */
 .navbar-custom .navbar-brand:focus {
   outline: 0;
 }
 
-/* line 84, ../sass/nav.scss */
+/* line 83, ../sass/nav.scss */
 .navbar-custom .navbar-brand .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
   color: #fff;
 }
 
-/* line 90, ../sass/nav.scss */
+/* line 89, ../sass/nav.scss */
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
   outline: 0;
 }
 
-/* line 95, ../sass/nav.scss */
+/* line 94, ../sass/nav.scss */
 .navbar-custom a {
   color: #fff;
 }
 
-/* line 99, ../sass/nav.scss */
+/* line 98, ../sass/nav.scss */
 .navbar-custom .nav li a {
   -webkit-transition: background .3s ease-in-out;
   -moz-transition: background .3s ease-in-out;
   transition: background .3s ease-in-out;
 }
 
-/* line 105, ../sass/nav.scss */
+/* line 104, ../sass/nav.scss */
 .navbar-custom .nav li a:hover {
   outline: 0;
   background-color: transparent;
 }
 
-/* line 110, ../sass/nav.scss */
+/* line 109, ../sass/nav.scss */
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
   outline: 0;
   background-color: transparent;
 }
 
-/* line 116, ../sass/nav.scss */
+/* line 115, ../sass/nav.scss */
 .navbar-custom .nav li.active {
   outline: 0;
 }
 
-/* line 120, ../sass/nav.scss */
+/* line 119, ../sass/nav.scss */
 .navbar-custom .nav li.active a {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* line 124, ../sass/nav.scss */
+/* line 123, ../sass/nav.scss */
 .navbar-custom .nav li.active a:hover {
   color: #fff;
 }
 
 @media (min-width: 768px) {
-  /* line 129, ../sass/nav.scss */
+  /* line 128, ../sass/nav.scss */
   .navbar-custom {
     padding: 20px 0;
     border-bottom: 0;
@@ -11138,14 +11137,13 @@ a:focus {
     transition: background .5s ease-in-out,padding .5s ease-in-out;
   }
 
-  /* line 139, ../sass/nav.scss */
+  /* line 138, ../sass/nav.scss */
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     background: #000;
   }
 }
-/* line 146, ../sass/nav.scss */
+/* line 144, ../sass/nav.scss */
 .intro {
   display: table;
   width: 100%;
@@ -11161,40 +11159,40 @@ a:focus {
   -o-background-size: cover;
 }
 
-/* line 161, ../sass/nav.scss */
+/* line 159, ../sass/nav.scss */
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 166, ../sass/nav.scss */
+/* line 164, ../sass/nav.scss */
 .intro .intro-body .brand-heading {
   font-size: 40px;
 }
 
-/* line 170, ../sass/nav.scss */
+/* line 168, ../sass/nav.scss */
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
 
 @media (min-width: 768px) {
-  /* line 175, ../sass/nav.scss */
+  /* line 173, ../sass/nav.scss */
   .intro {
     height: 100%;
     padding: 0;
   }
 
-  /* line 180, ../sass/nav.scss */
+  /* line 178, ../sass/nav.scss */
   .intro .intro-body .brand-heading {
     font-size: 100px;
   }
 
-  /* line 184, ../sass/nav.scss */
+  /* line 182, ../sass/nav.scss */
   .intro .intro-body .intro-text {
     font-size: 26px;
   }
 }
-/* line 189, ../sass/nav.scss */
+/* line 187, ../sass/nav.scss */
 .btn-circle {
   width: 70px;
   height: 70px;
@@ -11210,7 +11208,7 @@ a:focus {
   transition: background .3s ease-in-out;
 }
 
-/* line 204, ../sass/nav.scss */
+/* line 202, ../sass/nav.scss */
 .btn-circle:hover,
 .btn-circle:focus {
   outline: 0;
@@ -11218,7 +11216,7 @@ a:focus {
   background: rgba(255, 255, 255, 0.1);
 }
 
-/* line 211, ../sass/nav.scss */
+/* line 209, ../sass/nav.scss */
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
   -webkit-transition-duration: 1s;
@@ -11226,7 +11224,7 @@ a:focus {
   -moz-transition-duration: 1s;
 }
 
-/* line 218, ../sass/nav.scss */
+/* line 216, ../sass/nav.scss */
 .btn-circle:hover i.animated {
   -webkit-animation-name: pulse;
   -moz-animation-name: pulse;
@@ -11266,12 +11264,12 @@ a:focus {
     transform: scale(1);
   }
 }
-/* line 263, ../sass/nav.scss */
+/* line 261, ../sass/nav.scss */
 .content-section {
   padding-top: 100px;
 }
 
-/* line 267, ../sass/nav.scss */
+/* line 265, ../sass/nav.scss */
 .download-section {
   width: 100%;
   padding: 50px 0;
@@ -11284,7 +11282,7 @@ a:focus {
   -o-background-size: cover;
 }
 
-/* line 279, ../sass/nav.scss */
+/* line 277, ../sass/nav.scss */
 #map {
   width: 100%;
   height: 200px;
@@ -11292,23 +11290,23 @@ a:focus {
 }
 
 @media (min-width: 767px) {
-  /* line 286, ../sass/nav.scss */
+  /* line 284, ../sass/nav.scss */
   .content-section {
     padding-top: 250px;
   }
 
-  /* line 290, ../sass/nav.scss */
+  /* line 288, ../sass/nav.scss */
   .download-section {
     padding: 100px 0;
   }
 
-  /* line 294, ../sass/nav.scss */
+  /* line 292, ../sass/nav.scss */
   #map {
     height: 400px;
     margin-top: 250px;
   }
 }
-/* line 300, ../sass/nav.scss */
+/* line 298, ../sass/nav.scss */
 .btn {
   border-radius: 0;
   text-transform: uppercase;
@@ -11319,14 +11317,14 @@ a:focus {
   transition: all .3s ease-in-out;
 }
 
-/* line 310, ../sass/nav.scss */
+/* line 308, ../sass/nav.scss */
 .btn-default {
   border: 1px solid #42dca3;
   color: #42dca3;
   background-color: transparent;
 }
 
-/* line 316, ../sass/nav.scss */
+/* line 314, ../sass/nav.scss */
 .btn-default:hover,
 .btn-default:focus {
   border: 1px solid #42dca3;
@@ -11335,65 +11333,65 @@ a:focus {
   background-color: #42dca3;
 }
 
-/* line 324, ../sass/nav.scss */
+/* line 322, ../sass/nav.scss */
 ul.banner-social-buttons {
   margin-top: 0;
 }
 
 @media (max-width: 1199px) {
-  /* line 329, ../sass/nav.scss */
+  /* line 327, ../sass/nav.scss */
   ul.banner-social-buttons {
     margin-top: 15px;
   }
 }
 @media (max-width: 767px) {
-  /* line 335, ../sass/nav.scss */
+  /* line 333, ../sass/nav.scss */
   ul.banner-social-buttons li {
     display: block;
     margin-bottom: 20px;
     padding: 0;
   }
 
-  /* line 341, ../sass/nav.scss */
+  /* line 339, ../sass/nav.scss */
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
 }
-/* line 346, ../sass/nav.scss */
+/* line 344, ../sass/nav.scss */
 footer {
   padding: 50px 0;
 }
 
-/* line 350, ../sass/nav.scss */
+/* line 348, ../sass/nav.scss */
 footer p {
   margin: 0;
 }
 
-/* line 354, ../sass/nav.scss */
+/* line 352, ../sass/nav.scss */
 ::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* line 360, ../sass/nav.scss */
+/* line 358, ../sass/nav.scss */
 ::selection {
   text-shadow: none;
   background: #fcfcfc;
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* line 366, ../sass/nav.scss */
+/* line 364, ../sass/nav.scss */
 img::selection {
   background: 0 0;
 }
 
-/* line 370, ../sass/nav.scss */
+/* line 368, ../sass/nav.scss */
 img::-moz-selection {
   background: 0 0;
 }
 
-/* line 374, ../sass/nav.scss */
+/* line 372, ../sass/nav.scss */
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }

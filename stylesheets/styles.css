@@ -110,7 +110,7 @@ a:hover {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%), url(../images/background4.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 600px;
+  height: 100%;
   padding-top: 4%;
 }
 /* line 109, ../sass/styles.scss */
@@ -126,7 +126,7 @@ a:hover {
 }
 /* line 120, ../sass/styles.scss */
 #main .container {
-  padding-top: 160px;
+  padding-top: 16%;
 }
 /* line 124, ../sass/styles.scss */
 #main p {
@@ -152,81 +152,82 @@ a:hover {
 /* line 144, ../sass/styles.scss */
 #profile p {
   color: #616867;
+  font-weight: bolder;
 }
 
-/* line 149, ../sass/styles.scss */
+/* line 150, ../sass/styles.scss */
 #skills {
   background-attachment: fixed;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../images/background.jpg);
   background-size: cover;
   padding: 5%;
 }
-/* line 155, ../sass/styles.scss */
+/* line 156, ../sass/styles.scss */
 #skills h2 {
   color: #c4e3e3;
   padding: 19px 0px 0px 0px;
 }
 
-/* line 161, ../sass/styles.scss */
+/* line 162, ../sass/styles.scss */
 #projects {
   background: #242521;
 }
-/* line 164, ../sass/styles.scss */
+/* line 165, ../sass/styles.scss */
 #projects h1 {
   padding-bottom: 30px;
 }
-/* line 168, ../sass/styles.scss */
+/* line 169, ../sass/styles.scss */
 #projects p {
   font-size: 14px;
 }
 
-/* line 173, ../sass/styles.scss */
+/* line 174, ../sass/styles.scss */
 #blog {
   background-attachment: fixed;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../images/background3.jpg);
   background-size: cover;
 }
-/* line 177, ../sass/styles.scss */
+/* line 178, ../sass/styles.scss */
 #blog h1 {
   font-size: 44px;
 }
-/* line 180, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 #blog h1 > span {
   font-size: 60px;
 }
-/* line 184, ../sass/styles.scss */
+/* line 185, ../sass/styles.scss */
 #blog p > span {
   letter-spacing: 10px;
 }
 
-/* line 189, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
 #art {
   background: #BFD0CD;
 }
-/* line 191, ../sass/styles.scss */
+/* line 192, ../sass/styles.scss */
 #art h1 {
   color: black;
 }
-/* line 194, ../sass/styles.scss */
+/* line 195, ../sass/styles.scss */
 #art img {
   max-height: 350px;
   max-width: 340px;
   padding: 10px;
 }
 
-/* line 201, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 #contact {
   background: black;
 }
-/* line 204, ../sass/styles.scss */
+/* line 205, ../sass/styles.scss */
 #contact .container {
   padding: 14% 2%;
 }
-/* line 208, ../sass/styles.scss */
+/* line 209, ../sass/styles.scss */
 #contact h2 {
   margin: 25px;
 }
-/* line 212, ../sass/styles.scss */
+/* line 213, ../sass/styles.scss */
 #contact img {
   height: 20px;
   margin: 10px;
@@ -239,11 +240,11 @@ a:hover {
   font-weight: normal;
   font-style: normal;
 }
-/* line 232, ../sass/styles.scss */
+/* line 233, ../sass/styles.scss */
 #projects h1 {
   padding-bottom: 45px;
 }
-/* line 236, ../sass/styles.scss */
+/* line 237, ../sass/styles.scss */
 #projects .small-ctn {
   display: inline-table;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -258,7 +259,7 @@ a:hover {
   -ms-transition: all 300ms linear;
   transition: all 300ms linear;
 }
-/* line 250, ../sass/styles.scss */
+/* line 251, ../sass/styles.scss */
 #projects .small-ctn:hover {
   float: clear;
   background: rgba(0, 0, 0, 0.83);
@@ -269,7 +270,7 @@ a:hover {
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
-/* line 262, ../sass/styles.scss */
+/* line 263, ../sass/styles.scss */
 #projects .ca-icon {
   display: inline-block;
   top: 10%;
@@ -281,7 +282,7 @@ a:hover {
   -ms-transition: all 400ms linear;
   transition: all 400ms linear;
 }
-/* line 274, ../sass/styles.scss */
+/* line 275, ../sass/styles.scss */
 #projects .small-ctn:hover .ca-icon {
   opacity: 0.2;
   position: absolute;
@@ -296,7 +297,7 @@ a:hover {
   -moz-animation: smallToBig 800ms alternate infinite ease;
   -ms-animation: smallToBig 800ms alternate infinite ease;
 }
-/* line 289, ../sass/styles.scss */
+/* line 290, ../sass/styles.scss */
 #projects .ca-main {
   font-size: 30px;
   z-index: 2;
@@ -307,7 +308,7 @@ a:hover {
   -ms-transition: all 200ms linear;
   transition: all 200ms linear;
 }
-/* line 300, ../sass/styles.scss */
+/* line 301, ../sass/styles.scss */
 #projects .small-ctn:hover .ca-main {
   opacity: 1;
   color: white;
@@ -316,7 +317,7 @@ a:hover {
   -moz-animation: smallToBig 300ms ease;
   -ms-animation: smallToBig 300ms ease;
 }
-/* line 309, ../sass/styles.scss */
+/* line 310, ../sass/styles.scss */
 #projects .ca-sub {
   font-size: 14px;
   color: #AAA;
@@ -330,14 +331,14 @@ a:hover {
   -ms-transition: all 200ms linear;
   transition: all 200ms linear;
 }
-/* line 323, ../sass/styles.scss */
+/* line 324, ../sass/styles.scss */
 #projects .small-ctn:hover .ca-sub {
   color: #ccff00;
   -webkit-animation: moveFromBottom 500ms ease;
   -moz-animation: moveFromBottom 500ms ease;
   -ms-animation: moveFromBottom 500ms ease;
 }
-/* line 330, ../sass/styles.scss */
+/* line 331, ../sass/styles.scss */
 #projects .ca-descrip {
   display: none;
   margin: 0;
@@ -348,7 +349,7 @@ a:hover {
   -ms-transition: all 200ms linear;
   transition: all 200ms linear;
 }
-/* line 341, ../sass/styles.scss */
+/* line 342, ../sass/styles.scss */
 #projects .small-ctn:hover .ca-descrip {
   display: inline-block;
   z-index: 2;
