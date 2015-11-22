@@ -30,7 +30,7 @@ p {
     line-height: 1.5;
 }
 
-@media(min-width:768px) {
+@media(min-width:855px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
@@ -64,10 +64,15 @@ a:focus {
     outline: 0;
 }
 
-.navbar-custom .navbar-brand .navbar-toggle {
-    padding: 4px 6px;
+.navbar-custom p {
+  margin: 0px;
+}
+
+.navbar-custom .navbar-toggle {
+    margin: 1px 6px 0px 0px;
     font-size: 16px;
     color: #fff;
+
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -108,9 +113,9 @@ a:focus {
     color: #fff;
 }
 
-@media(min-width:768px) {
+@media(min-width:855px) {
     .navbar-custom {
-        padding: 20px 0;
+        padding: 20px 50px;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
@@ -153,7 +158,7 @@ a:focus {
     font-size: 18px;
 }
 
-@media(min-width:768px) {
+@media(min-width:855px) {
     .intro {
         height: 100%;
         padding: 0;
@@ -208,7 +213,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -225,7 +230,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -264,7 +269,7 @@ a:focus {
     margin-top: 100px;
 }
 
-@media(min-width:767px) {
+@media(min-width:854px) {
     .content-section {
         padding-top: 250px;
     }
@@ -313,7 +318,7 @@ ul.banner-social-buttons {
     }
 }
 
-@media(max-width:767px) {
+@media(max-width:854px) {
     ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
