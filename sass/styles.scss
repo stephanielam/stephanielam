@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-  padding: 40px 10px;
+  padding: 90px 10px;
 }
 
 h1 {
@@ -118,6 +118,7 @@ a {
     font-size: 84px;
     font-family: Raleway;
     font-weight: bold;
+    padding: 20px;
   }
 
   h3 {
@@ -159,7 +160,7 @@ a {
     color: #525252;
     font-size: 32px;
     letter-spacing: 17px;
-    margin: 37px 0px 0px 0px;
+    margin: 0px;
   }
 
   p {
@@ -216,7 +217,12 @@ a {
   h3 {
     text-transform: capitalize;
     font-size: 18px;
-    color: rgba(255, 255, 255, 0.9);
+    font-family: Times New Roman;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  p {
+    color: white
   }
 
   p > span {
