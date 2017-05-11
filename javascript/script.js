@@ -1,18 +1,30 @@
 $(function(){
   console.log("jquery");
   $('#renadrone').click(function(){
-    window.location = 'https://renadrone.herokuapp.com/drones';
+    window.location = 'https://github.com/stephanielam/renadrone';
+  });
+
+  $('#bhmm').click(function(){
+    window.location = 'https://github.com/leimd/Midterm_Project';
   });
 
   $('#kairos').click(function(){
     window.location = 'https://github.com/stephanielam/kairos';
   });
 
-  $('#bhmm').click(function(){
-    window.location = 'https://bhmm_lighthouse.mooo.com/locations';
+  $('#cashout').click(function(){
+    window.location = 'http://toey.herokuapp.com';
   });
 
-  $('#cashout').click(function(){
-    window.location = 'http://cash-out.herokuapp.com/';
+  $('#fbadhair').click(function(){
+    window.location = 'http://fuckbadhair.com';
+  });
+
+  $('#cvc').click(function(){
+    window.location = 'http://ubccvc.ca/';
+  });
+
+  $('#lam').click(function(){
+    window.location = 'http://stephanielam.github.io';
   });
 });
