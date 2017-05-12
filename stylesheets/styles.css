@@ -13,8 +13,6 @@ body {
   font-family: Raleway;
   font-weight: 400;
   text-align: center;
-  padding: 0px;
-  margin: 0px;
   background: #1f1f1f; }
 
 .container {
@@ -23,59 +21,44 @@ body {
 
 h1 {
   font-family: Oswald;
-  font-size: 80px;
-  color: rgba(255, 255, 255, 0.95);
-  padding: 0px;
-  margin-bottom: 50px; }
+  color: white;
+  font-size: 90px;
+  margin-bottom: 40px; }
 
 h2 {
   font-weight: bold;
-  color: #c4e3e3; }
+  color: #BFD0CD;
+  margin: 0px; }
 
 h3 {
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
   font-size: 25px; }
 
 p {
   font-size: 16px;
-  color: rgba(212, 226, 223, 0.98);
+  color: white;
   letter-spacing: 2px;
-  line-height: 40px;
-  margin: 0px; }
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+  line-height: 30px; }
+
+.divider {
+  margin: 55px; }
+
+a {
+  color: white;
+  letter-spacing: 4px;
+  text-decoration: none;
+  z-index: 2; }
+  a:hover {
+    color: #BFD0CD; }
 
 .navbar .container {
   padding: 0 10px; }
 .navbar li {
   padding: 0;
-  font-size: 11px; }
-
-.small-ctn {
-  display: inline-table;
-  padding: 10px;
-  width: 200px;
-  cursor: pointer; }
-
-ul {
-  list-style-type: none;
-  color: white; }
-
-li {
-  padding: 10px;
-  font-size: 20px; }
-
-.divider {
-  margin-bottom: 20px; }
-
-a {
-  color: rgba(255, 255, 255, 0.5);
-  letter-spacing: 4px;
-  text-decoration: none;
-  z-index: 2; }
-  a:hover {
-    color: #c4e3e3; }
-
-.section-title {
-  font-size: 90px; }
+  font-size: 12px; }
 
 #main {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%), url(../images/backgrounds/background4.jpg);
@@ -84,50 +67,49 @@ a {
   background-width: 100%;
   background-height: auto; }
   #main .container {
-    padding: 16% 0%; }
+    padding: 12% 0%; }
   #main h1 {
-    font-size: 10vw;
-    padding: 20px;
-    letter-spacing: 5px; }
+    margin: 0px;
+    font-size: 145px; }
   #main h3 {
-    color: rgba(212, 226, 223, 0.8);
-    letter-spacing: 15px;
-    font-size: 2vw; }
+    color: #BFD0CD;
+    letter-spacing: 13px;
+    font-size: 26px;
+    margin: 5px 0px 65px 0px; }
   #main p {
-    letter-spacing: 7px;
+    letter-spacing: 6px;
+    font-size: 20px;
+    margin: 70px 0px 65px 0px; }
+  #main button {
+    background: #c4e3e3;
     font-weight: bold;
-    font-size: 1.5vw; }
+    border: none;
+    padding: 12px 22px; }
+    #main button:hover {
+      background: #BFD0CD; }
+    #main button a {
+      color: black; }
 
 #profile p {
-  color: #fdfdfd;
-  font-weight: bolder;
-  font-style: italic; }
+  font-style: italic;
+  line-height: 30px; }
 
 #skills {
   background-attachment: fixed;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../images/backgrounds/background1.jpeg);
   background-size: cover; }
-  #skills h2 {
-    margin: 0px; }
-  #skills .triangle {
-    position: absolute;
-    width: 373px;
-    border-left: 190px solid transparent;
-    border-right: 183px solid transparent;
-    border-bottom: 283px solid rgba(0, 0, 0, 0.3); }
   #skills #t-text {
-    width: 383px;
-    position: relative;
-    top: 43px;
-    margin-bottom: 80px; }
-  #skills p {
-    margin: 0px; }
+    font-size: 80px; }
 
 #projects {
   background: #242521; }
+  #projects .small-ctn {
+    display: inline-table;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer; }
   #projects p {
-    font-size: 14px;
-    padding: 0px; }
+    line-height: 20px; }
 
 #timeline {
   background-attachment: fixed;
@@ -135,12 +117,11 @@ a {
   background-size: cover; }
   #timeline .month {
     font-family: Alex Brush;
-    text-transform: lowercase;
-    font-size: 80px;
     position: relative;
-    margin: 0px; }
+    margin: 0px;
+    font-size: 60px; }
   #timeline .month > span {
-    font-size: 100px; }
+    font-size: 90px; }
   #timeline .year {
     position: absolute;
     font-family: Oswald;
@@ -153,13 +134,8 @@ a {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.7);
     margin: 20px; }
-  #timeline p {
-    color: white;
-    line-height: 25px; }
   #timeline p > span {
     letter-spacing: 10px; }
-  #timeline .divider {
-    margin: 55px; }
 
 #design {
   background: #BFD0CD; }
@@ -173,15 +149,13 @@ a {
     padding-left: 0%;
     padding-right: 0%; }
 
-#contact {
-  background: black; }
-  #contact .container {
-    padding: 10% 2%; }
-  #contact h3 {
-    margin: 60px 0px 40px 0px; }
-  #contact img {
-    height: 20px;
-    margin: 10px; }
+#contact .container {
+  padding: 10% 2%; }
+#contact h3 {
+  margin: 60px 0px 40px 0px; }
+#contact img {
+  height: 20px;
+  margin: 10px; }
 
 @font-face {
   font-family: 'WebSymbolsRegular';
