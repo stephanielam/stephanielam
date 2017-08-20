@@ -6,7 +6,7 @@
 @immport "compass/css3";
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400);
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(http://fonts.googleapis.com/css?family=Bebas);
 @import url(https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise);
 @import url(https://fonts.googleapis.com/css?family=Alex+Brush);
 @import url(https://fonts.googleapis.com/css?family=Lato);
@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-  font-family: Oswald;
+  font-family: Bebas;
   color: white;
   font-size: 90px;
   margin-bottom: 40px;
@@ -114,7 +114,6 @@ a {
     font-weight: bolder;
     border: none;
     padding: 11px 20px;
-    border-radius: 10px;
 
     &:hover {
       background: $accent-color;
@@ -130,6 +129,11 @@ a {
 
 #profile {
   background: white;
+
+  img {
+    border-radius: 50%;
+    height: 260px;
+  }
 
   p {
     color: black;
@@ -208,7 +212,7 @@ a {
     position: absolute;
     background: #3b3b3b;
     overflow: hidden;
-    border: solid 3px #3b3b3b;
+    border: solid 1px #3b3b3b;
   }
 
   #carousel figure:nth-child(1) { transform: rotateY(0deg) translateZ(440px);}
@@ -249,7 +253,7 @@ a {
 
   .year {
     position: absolute;
-    font-family: Oswald;
+    font-family: Bebas;
     font-size: 50px;
     color: rgba(255,255,255,0.16);
     top: 10px;
@@ -298,13 +302,12 @@ a {
 #work {
   .ctn {
     display: inline-table;
-    border: 9px solid #3b3b3b;
-    box-shadow: 4px 7px 6px 4px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 6px 2px rgba(0,0,0,0.2);
     width: 240px;
     height: 230px;
     vertical-align: middle;
     margin: 25px;
-    -webkit-box-shadow: 4px 7px 6px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 3px 3px 6px 2px rgba(0,0,0,0.2);
     -moz-box-shadow: 4px 7px 6px 4px rgba(0,0,0,0.2);
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
